@@ -1,6 +1,5 @@
 body {
     font-family: Tahoma, Verdana, Helvetica;
-    background: blue;
     display: flex;
     flex-direction: column;
     flex:1;
