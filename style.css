@@ -1,5 +1,11 @@
 body {
     font-family: Tahoma, Verdana, Helvetica;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation {
@@ -17,7 +23,7 @@ ul {
     flex-direction: row;
     text-decoration: none;
     list-style-type: none;
-    margin-left: 600px;
+    margin-left: 575px;
 }
 
 li {
@@ -37,7 +43,7 @@ img {
     height: 200px;
     width: auto;
     border-radius: 30px;
-    margin-left: 40px;
+    
 }
 
 .title {
@@ -48,7 +54,7 @@ img {
 .text {
     display: flex;
     flex-direction: column;
-    margin-right: 200px;
+    margin-right: 225px;
 }
 
 button {
@@ -63,6 +69,7 @@ button {
 
 .middle {
     background-color: #2e7d32;
+    padding: 16px;
 }
 
 .infotitle {
@@ -70,5 +77,80 @@ button {
     justify-content: center;
     font-size: 30px;
     font-weight: 900;
-    color: blanchedalmond;
+    color: white;
+}
+
+.featuredplants {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 16px;
+}
+
+.plants {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #60ad5e;
+    color: white;
+    font-style: italic;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 24px;
+    width: 500px;
+    padding: 24px;
+}
+
+.author {
+    text-indent: 150px;
+}
+
+.bottom {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.box {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 48px;
+    background-color: #c8e6c9;
+    border-radius: 10px;
+}
+
+.bottombutton {
+    background-color: #75a478;
+    width: 150px;
+    height: 45px;
+    margin-left: 200px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #005005;
 }
